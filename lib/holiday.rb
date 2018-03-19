@@ -53,7 +53,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, holiday_hash|
     holiday_hash.values
   end
-      
+
 end
 
 def all_supplies_in_holidays(holiday_hash)
