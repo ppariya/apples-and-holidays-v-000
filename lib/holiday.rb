@@ -44,6 +44,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
       seasons[holiday_name] = supply_array
     end
   end
+  return holiday_supplies
 end
 
 def all_winter_holiday_supplies(holiday_hash)
